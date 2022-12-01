@@ -1,6 +1,6 @@
 {
-  "name": "getkirby/toolkit",
-  "description": "The Kirby 2 toolkit is a set of handy classes and helpers which make your life with PHP easier.",
+  "name": "borzoj/toolkit",
+  "description": "Fork! The Kirby 2 toolkit is a set of handy classes and helpers which make your life with PHP easier.",
   "keywords": ["toolkit"],
   "homepage": "http://toolkit.getkirby.com",
   "license": "MIT",
@@ -13,9 +13,9 @@
   ],
   "support": {
     "email": "support@getkirby.com",
-    "issues": "https://github.com/getkirby/toolkit/issues",
+    "issues": "https://github.com/borzoj/toolkit/issues",
     "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/getkirby/toolkit"
+    "source": "https://github.com/borzoj/toolkit"
   },
   "autoload": {
     "files": ["bootstrap.php"]
