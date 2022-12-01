@@ -165,7 +165,7 @@ class Exif {
   protected function parse() {
 
     // read the exif data of the media object if possible
-    $this->data = @read_exif_data($this->media->root());
+    $this->data = @exif_read_data($this->media->root());
 
     // stop on invalid exif data
     if(!is_array($this->data)) return false;

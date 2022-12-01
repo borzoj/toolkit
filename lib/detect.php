@@ -169,7 +169,7 @@ class Detect {
    * @return boolean
    */
   public static function exif() {
-    return function_exists('read_exif_data');
+    return function_exists('exif_read_data');
   }
 
   /**
